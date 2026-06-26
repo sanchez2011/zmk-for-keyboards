@@ -12,10 +12,10 @@
             #binding-cells = <2>;
             tapping-term-ms = <180>;
             quick_tap_ms = <0>;
-            flavor = "balanced";
+            flavor = "hold-preferred";
             bindings = <&kp>, <&kp>;
 
-            quick-tap-ms = <180>;
+            quick-tap-ms = <150>;
             require-prior-idle-ms = <150>;
         };
 
@@ -25,10 +25,10 @@
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <800>;
+            tapping-term-ms = <500>;
             global-quick-tap;
-            quick-tap-ms = <400>;
-            flavor = "balanced";
+            quick-tap-ms = <300>;
+            flavor = "hold-preferred";
         };
     };
 
